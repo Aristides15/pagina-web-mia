@@ -1,0 +1,182 @@
+*{
+    margin:0px;
+    padding: 0px;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body{
+    text-align:center;
+    font-family:sans-serif;
+    text-decoration: none;
+}
+.head{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    height: 63px;
+    background-color:yellow;
+    position:fixed;
+    width:100%;
+    z-index: 100;
+}
+.navegation{
+    display:flex;
+    margin-right:10px;
+}
+
+.logo{
+    margin-left:33px;
+}
+.navegation a {
+    display:block;
+    padding:20px 23px;
+    color: black;
+    font-family:'Cartoonist Kooky';
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.navegation a:hover{
+    background:linear-gradient(to right,orange,yellow)
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.encabezado_contenido  {
+
+    height: 60vh !important;
+    background: url(siembra-maiz.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment:fixed;
+
+}
+
+.titulo{
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color:floralwhite;
+}
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color:black;
+    
+    
+}
+.boton {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 0px;
+    border: 4px solid orange;
+    text-decoration: none;
+    background: orange;
+}
+.boton:hover{
+    background: none
+}
+
+
+.lista {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: white;
+    background-color:orange;
+    background-size: cover;
+
+    
+}
+.contenido{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.sua{
+    padding: 120px;
+    background-color:orange;
+}
+
+.caja-container{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    text-align:center;
+}
+.caja-container .box{
+    height: 12rem;
+    width: 18rem;
+    background-color:orangered;
+    text-align:center;
+    border-radius: 1rem;
+    box-shadow: 0 2px orange;
+    margin: 2rem;
+}
+.caja-container .box i {
+       height: 3rem;
+       width: 3rem;
+       line-height: 3rem;
+       text-align: center;
+       border-radius: 50%;
+       color: white;
+       background: yellow;
+    }
+.caja-container .box h3 {
+    font-size: 25px;
+    color:white;
+    }
+ .nosotros{
+    background-color: orangered;
+    padding:15px;
+}
+ .precio{
+     background: url(imagen2.jpg) no-repeat center;
+     background-size:cover;
+     background-attachment:fixed;
+     text-align: center;
+ }
+ .contacto{
+     padding-top: 20px;
+     background-color: orangered;
+     padding-bottom: 0;
+ }
+
+.titulo inicio {
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    color: floralwhite;
+}
+.botn_final {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 0px;
+    border: 4px solid orange;
+    text-decoration: none;
+    background: orange;
+}
+
+}
+    @media(max-width: 768px) {
+
+        .titulo {
+            margin-bottom: 0;
+            font-size: 40px
+        }
+
+        .sua {
+            height: 150vh;
+        }
+
+        .navegation {
+            display: none;
+        }
+    }
